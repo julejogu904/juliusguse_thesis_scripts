@@ -1,0 +1,474 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Dec 12 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    MacBookPro.fritz.box (SSE4.2, 8 GB RAM)
+Command: iqtree2 -quiet -s 9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation -mset GTR -mfreq FU,F,FO -bb 1000 -alrt 1000 -nt AUTO
+Seed:    76160 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Nov 14 18:14:53 2025
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file 9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation ... Fasta format detected
+Reading fasta file: done in 0.0103641 secs using 87.42% CPU
+Alignment most likely contains 3-state morphological data
+Alignment has 74 sequences with 12139 columns, 9274 distinct patterns
+7224 parsimony-informative, 1629 singleton sites, 3285 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00048995 secs using 260.2% CPU
+   1  GCA_000011005    7.46%    passed     61.85%
+   2  GCA_000251105    7.45%    passed     54.79%
+   3  GCA_000063445    7.99%    passed     54.27%
+   4  GCA_002067315    7.60%    passed     19.50%
+   5  GCA_023436075   14.14%    failed      3.06%
+   6  GCA_021023085   11.48%    passed     33.62%
+   7  GCA_000025865    4.95%    passed     31.84%
+   8  GCA_000217995    4.56%    passed     56.23%
+   9  GCA_003139855    5.51%    passed     29.78%
+  10  GCA_003158275   32.14%    failed      0.74%
+  11  GCA_003162175    6.84%    passed     70.61%
+  12  GCA_015661395    5.95%    passed     44.74%
+  13  GCA_003170935   12.97%    passed     60.24%
+  14  GCA_015660915    5.77%    passed     32.29%
+  15  GCA_000014945    4.14%    failed      0.67%
+  16  GCA_029907715    4.00%    failed      1.80%
+  17  GCA_030605385   10.81%    passed     94.65%
+  18  GCA_030643285   41.53%    passed     27.45%
+  19  GCA_002495885    4.80%    passed     20.98%
+  20  GCA_028715545    8.53%    failed      1.30%
+  21  GCA_028715985    5.04%    failed      2.72%
+  22  GCA_000711905    3.98%    failed      0.10%
+  23  GCA_002010075    5.86%    failed      3.39%
+  24  GCA_016207515    5.07%    passed     10.16%
+  25  GCA_028716125   22.66%    passed     42.16%
+  26  GCA_021159465   14.53%    failed      0.00%
+  27  GCA_030611045   11.24%    passed      5.02%
+  28  GCA_016874675   10.82%    passed     75.07%
+  29  GCA_020356005   16.15%    failed      0.02%
+  30  GCA_028279585   17.79%    failed      0.00%
+  31  GCA_029932465   12.40%    passed     33.88%
+  32  GCA_000025665    7.03%    failed      4.48%
+  33  GCA_030630685   23.87%    passed     65.43%
+  34  GCA_002011165    3.30%    failed      0.01%
+  35  GCA_014361165    6.29%    failed      0.00%
+  36  GCA_000025285    4.18%    failed      0.00%
+  37  GCA_000025505    4.83%    failed      0.00%
+  38  GCA_000789255    4.28%    failed      0.00%
+  39  GCA_001006045    4.18%    failed      0.00%
+  40  GCA_001766815    8.05%    passed     44.08%
+  41  GCA_018263395   34.36%    failed      0.00%
+  42  GCA_014361245    9.21%    failed      0.00%
+  43  GCA_030740765   14.78%    passed     22.45%
+  44  GCA_021129915   18.06%    passed     78.48%
+  45  GCA_026016205    4.25%    failed      0.89%
+  46  GCA_030018435    4.09%    failed      3.74%
+  47  GCA_001914405    4.06%    failed      0.01%
+  48  GCA_003034855    4.42%    failed      0.00%
+  49  GCA_002153915    4.64%    failed      0.01%
+  50  GCA_029854155    4.22%    failed      0.03%
+  51  GCA_023016325    4.14%    failed      0.00%
+  52  GCA_000230955    5.58%    failed      0.10%
+  53  GCA_000746205    4.98%    failed      0.27%
+  54  GCA_003058365    5.64%    failed      1.57%
+  55  GCA_026242195    4.77%    failed      0.00%
+  56  GCA_028751095    9.77%    failed      0.00%
+  57  GCA_028751075    8.60%    failed      0.00%
+  58  GCA_004212075    9.21%    failed      0.95%
+  59  GCA_013329575   15.80%    passed     74.51%
+  60  GCA_004212085   11.44%    passed     70.41%
+  61  GCA_902158745    6.36%    passed     12.39%
+  62  GCA_902158735   28.44%    passed     35.64%
+  63  GCA_013377755    6.32%    passed     78.35%
+  64  GCA_024170265    6.15%    passed     74.96%
+  65  GCA_015660865    6.28%    passed      8.80%
+  66  GCA_024662215    6.10%    passed      9.26%
+  67  GCA_026625165    6.19%    failed      4.89%
+  68  GCA_030019085    5.31%    passed     10.76%
+  69  GCA_030018475   10.35%    failed      0.01%
+  70  GCA_002494765    8.10%    failed      0.87%
+  71  GCA_030748895    8.43%    passed     84.21%
+  72  GCA_028279595   14.03%    failed      0.00%
+  73  GCA_016207465   36.30%    failed      0.00%
+  74  GCA_003663585   30.63%    passed      5.72%
+****  TOTAL           10.29%  39 sequences failed composition chi2 test (p-value<5%; df=2)
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.795 seconds, parsimony score: 51996 (based on 8853 sites)
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+41 trees examined
+Threads: 1 / Time: 8.095 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -289750
+Threads: 2 / Time: 5.717 sec / Speedup: 1.416 / Efficiency: 71% / LogL: -289750
+Threads: 3 / Time: 4.754 sec / Speedup: 1.703 / Efficiency: 57% / LogL: -289750
+Threads: 4 / Time: 4.478 sec / Speedup: 1.808 / Efficiency: 45% / LogL: -289750
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using MK+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -240872.394
+2. Current log-likelihood: -240864.164
+3. Current log-likelihood: -240859.971
+4. Current log-likelihood: -240856.681
+5. Current log-likelihood: -240854.058
+6. Current log-likelihood: -240851.931
+7. Current log-likelihood: -240850.182
+8. Current log-likelihood: -240848.724
+9. Current log-likelihood: -240847.498
+10. Current log-likelihood: -240846.454
+Optimal log-likelihood: -240845.560
+Proportion of invariable sites: 0.031
+Gamma shape alpha: 0.573
+Parameters optimization took 10 rounds (1.785 sec)
+Time for fast ML tree search: 3.678 seconds
+
+NOTE: ModelFinder requires 205 MB RAM!
+ModelFinder will test up to 66 morphological models (sample size: 12139 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  1  GTRX+FU       253626.775   147 507547.550   507551.179   508635.965
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  2  GTRX+FU+I     242540.491   148 485376.983   485380.661   486472.801
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  3  GTRX+FU+G4    232451.836   148 465199.673   465203.351   466295.491
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  4  GTRX+FU+I+G4  232387.207   149 465072.414   465076.142   466175.636
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  5  GTRX+FU+R2    234423.132   149 469144.264   469147.993   470247.487
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  6  GTRX+FU+R3    232194.417   151 464690.835   464694.664   465808.866
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  7  GTRX+FU+R4    231934.312   153 464174.624   464178.556   465307.464
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  8  GTRX+FU+R5    231899.918   155 464109.835   464113.871   465257.483
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  9  GTRX+FU+R6    231899.502   157 464113.005   464117.145   465275.461
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+ 14  GTRX+FU+I+R2  232844.778   150 465989.555   465993.334   467100.182
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+ 15  GTRX+FU+I+R3  231990.344   152 464284.687   464288.568   465410.122
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+ 16  GTRX+FU+I+R4  231990.287   154 464288.574   464292.558   465428.818
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+ 30  GTRX+F+R5     229040.959   157 458395.918   458400.059   459558.374
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+ 52  GTRX+FO+R5    228508.551   157 457331.102   457335.243   458493.558
+Akaike Information Criterion:           GTRX+FO+R5
+Corrected Akaike Information Criterion: GTRX+FO+R5
+Bayesian Information Criterion:         GTRX+FO+R5
+Best-fit model: GTRX+FO+R5 chosen according to BIC
+
+All model information printed to 9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation.model.gz
+CPU time for ModelFinder: 207.248 seconds (0h:3m:27s)
+Wall-clock time for ModelFinder: 100.775 seconds (0h:1m:40s)
+Generating 1000 samples for ultrafast bootstrap (seed: 76160)...
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+
+NOTE: 120 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -228508.551
+Optimal log-likelihood: -228508.548
+Rate parameters: 0.448 0.663 1.000
+State frequencies: 0.307 0.120 0.573
+Site proportion and rates:  (0.303,0.039) (0.280,0.383) (0.193,1.106) (0.145,2.286) (0.079,4.228)
+Parameters optimization took 1 rounds (0.399 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.037775 secs using 291.2% CPU
+Computing ML distances took 0.038585 sec (of wall-clock time) 0.112012 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 7.51019e-05 secs using 226.4% CPU
+Computing RapidNJ tree took 0.002011 sec (of wall-clock time) 0.001806 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -228391.228
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.498 second
+Computing log-likelihood of 98 initial trees ... 7.687 seconds
+Current best score: -228391.228
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -228069.157
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -228028.142
+Iteration 10 / LogL: -228037.763 / Time: 0h:2m:14s
+
+******************************************************
+CHECKPOINT: Resuming analysis from 9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation.ckp.gz
+
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Dec 12 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    MacBookPro.fritz.box (SSE4.2, 8 GB RAM)
+Command: iqtree2 -quiet -s 9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation -mset GTR -mfreq FU,F,FO -bb 1000 -alrt 1000 -nt AUTO
+Seed:    833268 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Nov 14 18:21:15 2025
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file 9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation ... Fasta format detected
+Reading fasta file: done in 0.011342 secs using 78.61% CPU
+Alignment most likely contains 3-state morphological data
+Alignment has 74 sequences with 12139 columns, 9274 distinct patterns
+7224 parsimony-informative, 1629 singleton sites, 3285 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000458956 secs using 341.4% CPU
+   1  GCA_000011005    7.46%    passed     61.85%
+   2  GCA_000251105    7.45%    passed     54.79%
+   3  GCA_000063445    7.99%    passed     54.27%
+   4  GCA_002067315    7.60%    passed     19.50%
+   5  GCA_023436075   14.14%    failed      3.06%
+   6  GCA_021023085   11.48%    passed     33.62%
+   7  GCA_000025865    4.95%    passed     31.84%
+   8  GCA_000217995    4.56%    passed     56.23%
+   9  GCA_003139855    5.51%    passed     29.78%
+  10  GCA_003158275   32.14%    failed      0.74%
+  11  GCA_003162175    6.84%    passed     70.61%
+  12  GCA_015661395    5.95%    passed     44.74%
+  13  GCA_003170935   12.97%    passed     60.24%
+  14  GCA_015660915    5.77%    passed     32.29%
+  15  GCA_000014945    4.14%    failed      0.67%
+  16  GCA_029907715    4.00%    failed      1.80%
+  17  GCA_030605385   10.81%    passed     94.65%
+  18  GCA_030643285   41.53%    passed     27.45%
+  19  GCA_002495885    4.80%    passed     20.98%
+  20  GCA_028715545    8.53%    failed      1.30%
+  21  GCA_028715985    5.04%    failed      2.72%
+  22  GCA_000711905    3.98%    failed      0.10%
+  23  GCA_002010075    5.86%    failed      3.39%
+  24  GCA_016207515    5.07%    passed     10.16%
+  25  GCA_028716125   22.66%    passed     42.16%
+  26  GCA_021159465   14.53%    failed      0.00%
+  27  GCA_030611045   11.24%    passed      5.02%
+  28  GCA_016874675   10.82%    passed     75.07%
+  29  GCA_020356005   16.15%    failed      0.02%
+  30  GCA_028279585   17.79%    failed      0.00%
+  31  GCA_029932465   12.40%    passed     33.88%
+  32  GCA_000025665    7.03%    failed      4.48%
+  33  GCA_030630685   23.87%    passed     65.43%
+  34  GCA_002011165    3.30%    failed      0.01%
+  35  GCA_014361165    6.29%    failed      0.00%
+  36  GCA_000025285    4.18%    failed      0.00%
+  37  GCA_000025505    4.83%    failed      0.00%
+  38  GCA_000789255    4.28%    failed      0.00%
+  39  GCA_001006045    4.18%    failed      0.00%
+  40  GCA_001766815    8.05%    passed     44.08%
+  41  GCA_018263395   34.36%    failed      0.00%
+  42  GCA_014361245    9.21%    failed      0.00%
+  43  GCA_030740765   14.78%    passed     22.45%
+  44  GCA_021129915   18.06%    passed     78.48%
+  45  GCA_026016205    4.25%    failed      0.89%
+  46  GCA_030018435    4.09%    failed      3.74%
+  47  GCA_001914405    4.06%    failed      0.01%
+  48  GCA_003034855    4.42%    failed      0.00%
+  49  GCA_002153915    4.64%    failed      0.01%
+  50  GCA_029854155    4.22%    failed      0.03%
+  51  GCA_023016325    4.14%    failed      0.00%
+  52  GCA_000230955    5.58%    failed      0.10%
+  53  GCA_000746205    4.98%    failed      0.27%
+  54  GCA_003058365    5.64%    failed      1.57%
+  55  GCA_026242195    4.77%    failed      0.00%
+  56  GCA_028751095    9.77%    failed      0.00%
+  57  GCA_028751075    8.60%    failed      0.00%
+  58  GCA_004212075    9.21%    failed      0.95%
+  59  GCA_013329575   15.80%    passed     74.51%
+  60  GCA_004212085   11.44%    passed     70.41%
+  61  GCA_902158745    6.36%    passed     12.39%
+  62  GCA_902158735   28.44%    passed     35.64%
+  63  GCA_013377755    6.32%    passed     78.35%
+  64  GCA_024170265    6.15%    passed     74.96%
+  65  GCA_015660865    6.28%    passed      8.80%
+  66  GCA_024662215    6.10%    passed      9.26%
+  67  GCA_026625165    6.19%    failed      4.89%
+  68  GCA_030019085    5.31%    passed     10.76%
+  69  GCA_030018475   10.35%    failed      0.01%
+  70  GCA_002494765    8.10%    failed      0.87%
+  71  GCA_030748895    8.43%    passed     84.21%
+  72  GCA_028279595   14.03%    failed      0.00%
+  73  GCA_016207465   36.30%    failed      0.00%
+  74  GCA_003663585   30.63%    passed      5.72%
+****  TOTAL           10.29%  39 sequences failed composition chi2 test (p-value<5%; df=2)
+
+NOTE: Restoring information from model checkpoint file 9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation.model.gz
+
+CHECKPOINT: Initial tree restored
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+44 trees examined
+Threads: 1 / Time: 8.147 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -289531
+Threads: 2 / Time: 5.976 sec / Speedup: 1.363 / Efficiency: 68% / LogL: -289531
+Threads: 3 / Time: 4.739 sec / Speedup: 1.719 / Efficiency: 57% / LogL: -289531
+Threads: 4 / Time: 4.328 sec / Speedup: 1.882 / Efficiency: 47% / LogL: -289531
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using MK+I+G model...
+CHECKPOINT: Tree restored, LogL: -238334.996
+NOTE: ModelFinder requires 205 MB RAM!
+ModelFinder will test up to 66 morphological models (sample size: 12139 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  1  GTRX+FU       253626.775   147 507547.550   507551.179   508635.965
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  2  GTRX+FU+I     242540.491   148 485376.983   485380.661   486472.801
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  3  GTRX+FU+G4    232451.837   148 465199.673   465203.351   466295.491
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  4  GTRX+FU+I+G4  232387.207   149 465072.414   465076.142   466175.636
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  5  GTRX+FU+R2    234423.132   149 469144.264   469147.993   470247.487
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  6  GTRX+FU+R3    232194.417   151 464690.835   464694.664   465808.866
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  7  GTRX+FU+R4    231934.312   153 464174.624   464178.556   465307.464
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  8  GTRX+FU+R5    231899.918   155 464109.835   464113.871   465257.483
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+  9  GTRX+FU+R6    231899.502   157 464113.005   464117.145   465275.461
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+ 14  GTRX+FU+I+R2  232844.778   150 465989.555   465993.334   467100.182
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+ 15  GTRX+FU+I+R3  231990.344   152 464284.687   464288.568   465410.122
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+ 16  GTRX+FU+I+R4  231990.287   154 464288.574   464292.558   465428.818
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+ 30  GTRX+F+R5     229040.959   157 458395.918   458400.059   459558.374
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+ 52  GTRX+FO+R5    228508.551   157 457331.102   457335.243   458493.558
+Akaike Information Criterion:           GTRX+FO+R5
+Corrected Akaike Information Criterion: GTRX+FO+R5
+Bayesian Information Criterion:         GTRX+FO+R5
+Best-fit model: GTRX+FO+R5 chosen according to BIC
+
+All model information printed to 9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation.model.gz
+CPU time for ModelFinder: 33.496 seconds (0h:0m:33s)
+Wall-clock time for ModelFinder: 23.227 seconds (0h:0m:23s)
+Generating 1000 samples for ultrafast bootstrap (seed: 833268)...
+WARNING: GTRX multistate model will estimate 2 substitution rates that might be overfitting!
+WARNING: Please only use GTRX with very large data and always test for model fit!
+
+NOTE: 120 MB RAM (0 GB) is required!
+CHECKPOINT: Model parameters restored, LogL: -228508.548
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0379999 secs using 290.9% CPU
+Computing ML distances took 0.039131 sec (of wall-clock time) 0.112659 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 6.19888e-05 secs using 256.5% CPU
+Computing RapidNJ tree took 0.001863 sec (of wall-clock time) 0.001828 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -228391.228
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.494 second
+Computing log-likelihood of 98 initial trees ... 7.658 seconds
+Current best score: -228391.228
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -228069.157
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -228042.847
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -228026.450
+Iteration 10 / LogL: -228102.396 / Time: 0h:0m:54s
+Iteration 20 / LogL: -228081.004 / Time: 0h:1m:13s
+Finish initializing candidate tree set (20)
+Current best tree score: -228026.450 / CPU time: 49.768
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -228025.959
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -228013.896
+Iteration 30 / LogL: -228013.896 / Time: 0h:1m:33s (0h:4m:2s left)
+Iteration 40 / LogL: -228021.968 / Time: 0h:1m:49s (0h:3m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -228012.828
+Iteration 50 / LogL: -228014.541 / Time: 0h:2m:6s (0h:3m:22s left)
+Log-likelihood cutoff on original alignment: -228144.387
+Iteration 60 / LogL: -228024.611 / Time: 0h:2m:22s (0h:2m:54s left)
+Iteration 70 / LogL: -228036.223 / Time: 0h:2m:37s (0h:2m:28s left)
+Iteration 80 / LogL: -228042.295 / Time: 0h:2m:55s (0h:2m:7s left)
+Iteration 90 / LogL: -228013.042 / Time: 0h:3m:14s (0h:1m:47s left)
+Iteration 100 / LogL: -228013.791 / Time: 0h:3m:31s (0h:1m:27s left)
+Log-likelihood cutoff on original alignment: -228144.387
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 110 / LogL: -228034.102 / Time: 0h:3m:46s (0h:2m:47s left)
+Iteration 120 / LogL: -228036.915 / Time: 0h:4m:0s (0h:2m:26s left)
+Iteration 130 / LogL: -228014.667 / Time: 0h:4m:17s (0h:2m:6s left)
+Iteration 140 / LogL: -228029.744 / Time: 0h:4m:32s (0h:1m:47s left)
+TREE SEARCH COMPLETED AFTER 147 ITERATIONS / Time: 0h:4m:42s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -228012.828
+Optimal log-likelihood: -228012.819
+Rate parameters: 0.442 0.650 1.000
+State frequencies: 0.307 0.118 0.575
+Site proportion and rates:  (0.299,0.038) (0.289,0.382) (0.194,1.135) (0.145,2.363) (0.072,4.342)
+Parameters optimization took 1 rounds (0.503 sec)
+BEST SCORE FOUND : -228012.819
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+3.524 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file 9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation.splits.nex
+Total tree length: 6.109
+
+Total number of iterations: 147
+CPU time used for tree search: 502.205 sec (0h:8m:22s)
+Wall-clock time used for tree search: 258.736 sec (0h:4m:18s)
+Total CPU time used: 548.526 sec (0h:9m:8s)
+Total wall-clock time used: 286.996 sec (0h:4m:46s)
+
+Computing bootstrap consensus tree...
+Reading input file 9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation.splits.nex...
+74 taxa and 414 splits.
+Consensus tree written to 9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation.contree
+Reading input trees file 9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation.contree
+Log-likelihood of consensus tree: -228018.979
+
+Analysis results written to: 
+  IQ-TREE report:                9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation.iqtree
+  Maximum-likelihood tree:       9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation.treefile
+  Likelihood distances:          9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation.splits.nex
+  Consensus tree:                9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation.contree
+  Screen log file:               9_concatenations/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_s4predout_5.concatenation.log
+
+Date and Time: Fri Nov 14 18:26:03 2025

@@ -1,0 +1,178 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=74;
+	taxlabels
+	'GCA_000011005 d__Archaea|p__Halobacteriota|c__Methanocellia|o__Methanocellales|f__Methanocellaceae|g__Methanocella|s__Methanocella paludicola'[&!name="c_Methanocellia"]
+	'GCA_000014945 d__Archaea|p__Halobacteriota|c__Methanosarcinia|o__Methanotrichales|f__Methanotrichaceae|g__Methanothrix_B|s__Methanothrix_B thermoacetophila'[&!name="c_Methanosarcinia"]
+	'GCA_000025285 d__Archaea|p__Halobacteriota|c__Archaeoglobi|o__Archaeoglobales|f__Archaeoglobaceae|g__Archaeoglobus_B|s__Archaeoglobus_B profundus'[&!name="c_Archaeoglobi"]
+	'GCA_000025505 d__Archaea|p__Halobacteriota|c__Archaeoglobi|o__Archaeoglobales|f__Archaeoglobaceae|g__Ferroglobus|s__Ferroglobus placidus'[&!name="c_Archaeoglobi"]
+	'GCA_000025665 d__Archaea|p__Thermoplasmatota|c__Thermoplasmata|o__Aciduliprofundales|f__Aciduliprofundaceae|g__Aciduliprofundum|s__Aciduliprofundum boonei'[&!color=#c736c2,!name="p__Thermoplasmatota"]
+	'GCA_000025865 d__Archaea|p__Halobacteriota|c__Methanosarcinia|o__Methanosarcinales|f__Methanosarcinaceae|g__Methanohalophilus|s__Methanohalophilus mahii'[&!name="c_Methanosarcinia"]
+	'GCA_000063445 d__Archaea|p__Halobacteriota|c__Methanocellia|o__Methanocellales|f__Methanocellaceae|g__Methanocella_A|s__Methanocella_A arvoryzae'[&!name="c_Methanocellia"]
+	'GCA_000217995 d__Archaea|p__Halobacteriota|c__Methanosarcinia|o__Methanosarcinales|f__Methanosarcinaceae|g__Methanosalsum|s__Methanosalsum zhilinae'[&!name="c_Methanosarcinia"]
+	'GCA_000230955 d__Archaea|p__Halobacteriota|c__Halobacteria|o__Halobacteriales|f__Halobacteriaceae|g__Halobacterium|s__Halobacterium sp000230955'[&!color=#2ac947,!name="c_Halobacteria"]
+	'GCA_000251105 d__Archaea|p__Halobacteriota|c__Methanocellia|o__Methanocellales|f__Methanocellaceae|g__Methanocella|s__Methanocella conradii'[&!name="c_Methanocellia"]
+	'GCA_000711905 d__Archaea|p__Halobacteriota|c__Methanosarcinia|o__Methanosarcinales_A|f__Methermicoccaceae|g__Methermicoccus|s__Methermicoccus shengliensis'[&!name="c_Methanosarcinia"]
+	'GCA_000746205 d__Archaea|p__Halobacteriota|c__Halobacteria|o__Halobacteriales|f__Haloferacaceae|g__Halorubrum|s__Halorubrum sp000746205'[&!color=#2ac947,!name="c_Halobacteria"]
+	'GCA_000789255 d__Archaea|p__Halobacteriota|c__Archaeoglobi|o__Archaeoglobales|f__Archaeoglobaceae|g__Geoglobus|s__Geoglobus acetivorans'[&!name="c_Archaeoglobi"]
+	'GCA_001006045 d__Archaea|p__Halobacteriota|c__Archaeoglobi|o__Archaeoglobales|f__Archaeoglobaceae|g__Geoglobus|s__Geoglobus ahangari'[&!name="c_Archaeoglobi"]
+	'GCA_001766815 d__Archaea|p__Halobacteriota|c__Syntropharchaeia|o__Syntropharchaeales|f__Syntropharchaeaceae|g__Syntropharchaeum|s__Syntropharchaeum caldarius'[&!name="c_Methanosarcinia"]
+	'GCA_001914405 d__Archaea|p__Halobacteriota|c__Methanonatronarchaeia|o__Methanonatronarchaeales|f__Methanonatronarchaeaceae|g__Methanohalarchaeum|s__Methanohalarchaeum thermophilum'[&!color=#385ec7,!name="c_Methanonatronarchaeia"]
+	'GCA_002010075 d__Archaea|p__Halobacteriota|c__Methanosarcinia|o__Methanosarcinales_A|f__Methermicoccaceae|g__JdFR-19|s__JdFR-19 sp002010075'[&!name="c_Methanosarcinia"]
+	'GCA_002011165 d__Archaea|p__Halobacteriota|c__Archaeoglobi|o__Mnemosynellales|f__Mnemosynellaceae|g__Mnemosynella|s__Mnemosynella biddleae'[&!name="c_Archaeoglobi"]
+	'GCA_002067315 d__Archaea|p__Halobacteriota|c__Methanocellia|o__Methanocellales|f__Methanocellaceae|g__Methanocella_A|s__Methanocella_A sp002067315'[&!name="c_Methanocellia"]
+	'GCA_002153915 d__Archaea|p__Halobacteriota|c__Methanonatronarchaeia|o__Methanonatronarchaeales|f__Methanonatronarchaeaceae|g__Methanonatronarchaeum|s__Methanonatronarchaeum thermophilum'[&!color=#385ec7,!name="c_Methanonatronarchaeia"]
+	'GCA_002494765 d__Archaea|p__Thermoplasmatota|c__UBA186|o__UBA186|f__UBA186|g__UBA186|s__UBA186 sp002494765'[&!color=#c736c2,!name="p__Thermoplasmatota"]
+	'GCA_002495885 d__Archaea|p__Halobacteriota|c__UBA148|o__UBA148|f__UBA148|g__UBA148|s__UBA148 sp002495885'[&!name="c_UBA148"]
+	'GCA_003034855 d__Archaea|p__Halobacteriota|c__Methanonatronarchaeia|o__Methanonatronarchaeales|f__Methanonatronarchaeaceae|g__PZKD01|s__PZKD01 sp003034855'[&!color=#385ec7,!name="c_Methanonatronarchaeia"]
+	'GCA_003058365 d__Archaea|p__Halobacteriota|c__Halobacteria|o__Halobacteriales|f__Haloarculaceae|g__Halococcoides|s__Halococcoides cellulosivorans'[&!color=#2ac947,!name="c_Halobacteria"]
+	'GCA_003139855 d__Archaea|p__Halobacteriota|c__Bog-38|o__Bog-38|f__Bog-38|g__Bog-38|s__Bog-38 sp003139855'[&!name="c_BOG-38"]
+	'GCA_003158275 d__Archaea|p__Halobacteriota|c__Bog-38|o__Bog-38|f__Bog-38|g__Bog-38|s__Bog-38 sp003158275'[&!name="c_BOG-38"]
+	'GCA_003162175 d__Archaea|p__Halobacteriota|c__Bog-38|o__Bog-38|f__Bog-38|g__Bog-38|s__Bog-38 sp003162175'[&!name="c_BOG-38"]
+	'GCA_003170935 d__Archaea|p__Halobacteriota|c__Bog-38|o__Bog-38|f__Bog-38|g__Bog-38|s__Bog-38 sp003170935'[&!name="c_BOG-38"]
+	'GCA_003663585 d__Archaea|p__Thermoplasmatota|c__B47-G6|o__B47-G6B|f__47-G6|g__B47-G6|s__B47-G6 sp003663585'[&!color=#c736c2,!name="p__Thermoplasmatota"]
+	'GCA_004212075 d__Archaea|p__Halobacteriota|c__Methanoliparia|o__Methanoliparales|f__Methanoliparaceae|g__Methanoliparum|s__Methanoliparum thermophilum'[&!name="c_Methanoliparia"]
+	'GCA_004212085 d__Archaea|p__Halobacteriota|c__Methanoliparia|o__Methanoliparales|f__Methanoliparaceae|g__Methanolliviera|s__Methanolliviera hydrocarbonicum'[&!name="c_Methanoliparia"]
+	'GCA_013329575 d__Archaea|p__Halobacteriota|c__Methanoliparia|o__Methanoliparales|f__Methanoliparaceae|g__Methanoliparum|s__Methanoliparum sp8915u'[&!name="c_Methanoliparia"]
+	'GCA_013377755 d__Archaea|p__Halobacteriota|c__Methanomicrobia|o__Methanomicrobiales|f__Methanofollaceae|g__Methanofollis|s__Methanofollis tationis'[&!name="c_Methanomicrobia"]
+	'GCA_014361165 d__Archaea|p__Halobacteriota|c__Archaeoglobi|o__Mnemosynellales|f__Mnemosynellaceae|g__Mnemosynella|s__Mnemosynella bozhongmuii'[&!name="c_Archaeoglobi"]
+	'GCA_014361245 d__Archaea|p__Thermoplasmatota|c__E2|o__UBA202|f__JdFR-43|g__JACIWB01|s__JACIWB01 sp014361245'[&!color=#c736c2,!name="p__Thermoplasmatota"]
+	'GCA_015660865 d__Archaea|p__Halobacteriota|c__Methanomicrobia|o__Methanomicrobiales|f__JACTUA01|g__JACTUA01|s__JACTUA01 sp015660865'[&!name="c_Methanomicrobia"]
+	'GCA_015660915 d__Archaea|p__Halobacteriota|c__Bog-38|o__Bog-38|f__Bog-38|g__Bog-38|s__Bog-38 sp015660915'[&!name="c_BOG-38"]
+	'GCA_015661395 d__Archaea|p__Halobacteriota|c__Bog-38|o__Bog-38|f__Bog-38|g__Bog-38|s__Bog-38 sp015661395'[&!name="c_BOG-38"]
+	'GCA_016207465 d__Archaea|p__Halobacteriota|c__Syntropharchaeia|o__JACQPP01|f__JACQPP01|g__JACQPP01|s__JACQPP01 sp016207465'[&!name="c_Syntropharchaeia"]
+	'GCA_016207515 d__Archaea|p__Thermoplasmatota|c__SW-10-69-26|o__JACQPN01|f__JACQPN01|g__JACQPN01|s__JACQPN01 sp016207515'[&!color=#c736c2,!name="p__Thermoplasmatota"]
+	'GCA_016874675 d__Archaea|p__Thermoplasmatota|c__DTKX01|o__DTKX01|f__VGTL01|g__VGTL01|s__VGTL01 sp016874675'[&!color=#c736c2,!name="p__Thermoplasmatota"]
+	'GCA_018263395 d__Archaea|p__Halobacteriota|c__Methanonatronarchaeia|o__JAANXF01|f__JAANXF01|g__JAANXF01|s__JAANXF01 sp018263395'[&!color=#385ec7,!name="c_Methanonatronarchaeia"]
+	'GCA_020356005 d__Archaea|p__Thermoplasmatota|c__JAEHCK01|o__JAEHCK01|f__GCA-020356005|g__GCA-020356005|s__GCA-020356005 sp020356005'[&!color=#c736c2,!name="p__Thermoplasmatota"]
+	'GCA_021023085 d__Archaea|p__Halobacteriota|c__Methanocellia|o__Methanocellales|f__Methanocellaceae|g__PGCK01|s__PGCK01 sp021023085'[&!name="c_Methanocellia"]
+	'GCA_021129915 d__Archaea|p__Halobacteriota|c__UBA148|o__UBA148|f__JAJOKI01|g__JAJOKI01|s__JAJOKI01 sp021129915'[&!name="c_UBA148"]
+	'GCA_021159465 d__Archaea|p__Halobacteriota|c__Syntropharchaeia|o__Alkanophagales|f__Methanospirareceae|g__G60ANME1|s__G60ANME1 sp021159465'[&!name="c_Syntropharchaeia"]
+	'GCA_023016325 d__Archaea|p__Halobacteriota|c__Methanonatronarchaeia|o__Methanonatronarchaeales|f__Methanonatronarchaeaceae|g__Methanonatronarchaeum|s__Methanonatronarchaeum sp004212035'[&!color=#385ec7,!name="c_Methanonatronarchaeia"]
+	'GCA_023436075 d__Archaea|p__Halobacteriota|c__Methanocellia|o__Methanocellales|f__Methanocellaceae|g__Methanocella_A|s__Methanocella_A sp023436075'[&!name="c_Methanocellia"]
+	'GCA_024170265 d__Archaea|p__Halobacteriota|c__Methanomicrobia|o__Methanomicrobiales|f__Methanocorpusculaceae|g__Methanocalculus|s__Methanocalculus sp003838185'[&!name="c_Methanomicrobia"]
+	'GCA_024662215 d__Archaea|p__Halobacteriota|c__Methanomicrobia|o__Methanomicrobiales|f__Methanomicrobiaceae|g__Methanoplanus|s__Methanoplanus endosymbiosus'[&!name="c_Methanomicrobia"]
+	'GCA_026016205 d__Archaea|p__Halobacteriota|c__UBA148|o__UBA148|f__JAUWXC01|g__JAUWXC01|s__JAUWXC01 sp026016205'[&!name="c_UBA148"]
+	'GCA_026242195 d__Archaea|p__Halobacteriota|c__Halobacteria|o__Halorutilales|f__Halorutilaceae|g__Halorutilus|s__Halorutilus salinus'[&!color=#2ac947,!name="c_Halobacteria"]
+	'GCA_026625165 d__Archaea|p__Halobacteriota|c__Methanomicrobia|o__Methanomicrobiales|f__Methanospirillaceae|g__MVRE01|s__MVRE01 sp026625165'[&!name="c_Methanomicrobia"]
+	'GCA_028279585 d__Archaea|p__Thermoplasmatota|c__JANQNL01|o__JANQNL01|f__JANQNL01|g__JANQNL01|s__JANQNL01 sp028279585'[&!color=#c736c2,!name="p__Thermoplasmatota"]
+	'GCA_028279595 d__Archaea|p__Thermoplasmatota|c__JAKEGO01|o__JAKEGO01|f__JAKEGO01|g__JANQNK01|s__JANQNK01 sp028279595'[&!color=#c736c2,!name="p__Thermoplasmatota"]
+	'GCA_028715545 d__Archaea|p__Halobacteriota|c__UBA148|o__UBA148|f__UBA148|g__UBA148|s__UBA148 sp028715545'[&!name="c_UBA148"]
+	'GCA_028715985 d__Archaea|p__Halobacteriota|c__UBA148|o__UBA148|f__UBA148|g__UBA148|s__UBA148 sp028715985'[&!name="c_UBA148"]
+	'GCA_028716125 d__Archaea|p__Thermoplasmatota|c__JAQUQK01|o__JAQUQK01|f__JAQUQK01|g__JAQUQK01|s__JAQUQK01 sp028716125'[&!color=#c736c2,!name="p__Thermoplasmatota"]
+	'GCA_028751075 d__Archaea|p__Halobacteriota|c__Halobacteria|o__Halorutilales|f__Halorutilaceae|g__JAQZDA01|s__JAQZDA01 sp028751075'[&!color=#2ac947,!name="c_Halobacteria"]
+	'GCA_028751095 d__Archaea|p__Halobacteriota|c__Halobacteria|o__Halorutilales|f__Halorutilaceae|g__Halorutilus|s__Halorutilus sp028751095'[&!color=#2ac947,!name="c_Halobacteria"]
+	'GCA_029854155 d__Archaea|p__Halobacteriota|c__Methanonatronarchaeia|o__Methanonatronarchaeales|f__Methanonatronarchaeaceae|g__Methanonatronarchaeum|s__Methanonatronarchaeum sp029854155'[&!color=#385ec7,!name="c_Methanonatronarchaeia"]
+	'GCA_029907715 d__Archaea|p__Halobacteriota|c__Methanosarcinia|o__Methanotrichales|f__Methanotrichaceae|g__Methanothrix_B|s__Methanothrix_B sp029907715'[&!name="c_Methanosarcinia"]
+	'GCA_029932465 d__Archaea|p__Thermoplasmatota|c__EX4484-6|o__EX4484-6|f__EX4484-36|g__EX4484-36|s__EX4484-36 sp002254765'[&!color=#c736c2,!name="p__Thermoplasmatota"]
+	'GCA_030018435 d__Archaea|p__Halobacteriota|c__UBA148|o__UBA148|f__JAUWXC01|g__JAUWXC01|s__JAUWXC01 sp030018435'[&!name="c_UBA148"]
+	'GCA_030018475 d__Archaea|p__Thermoplasmatota|c__JASEFT01|o__JASEFT01|f__JASEFT01|g__JASEFT01|s__JASEFT01 sp030018475'[&!color=#c736c2,!name="p__Thermoplasmatota"]
+	'GCA_030019085 d__Archaea|p__Halobacteriota|c__Methanomicrobia|o__Methanomicrobiales|f__Methanoculleaceae|g__Methanoculleus|s__Methanoculleus sp030019085'[&!name="c_Methanomicrobia"]
+	'GCA_030605385 d__Archaea|p__Halobacteriota|c__Syntropharchaeia|o__JAUWIL01|f__JAUWIL01|g__JAUWIL01|s__JAUWIL01 sp030605385'[&!name="c_Methanosarcinia"]
+	'GCA_030611045 d__Archaea|p__Halobacteriota|c__Syntropharchaeia|o__Alkanophagales|f__Methanospirareceae|g__JACGMN01|s__JACGMN01 sp030611045'[&!name="c_Syntropharchaeia"]
+	'GCA_030630685 d__Archaea|p__Thermoplasmatota|c__DAOVMN01|o__DAOVMN01|f__DAOVMN01|g__DAOVMN01|s__DAOVMN01 sp030630685'[&!color=#c736c2,!name="p__Thermoplasmatota"]
+	'GCA_030643285 d__Archaea|p__Halobacteriota|c__Syntropharchaeia|o__DAOWMC01|f__DAOWMC01|g__DAOWMC01|s__DAOWMC01 sp030643285'[&!name="c_Syntropharchaeia"]
+	'GCA_030740765 d__Archaea|p__Thermoplasmatota|c__JASLWR01|o__JASLWR01|f__JASLWR01|g__JASLWR01|s__JASLWR01 sp030740765'[&!color=#c736c2,!name="p__Thermoplasmatota"]
+	'GCA_030748895 d__Archaea|p__Thermoplasmatota|c__Poseidoniia|o__MGIII|f__CG-Epi1|g__UBA8886|s__UBA8886 sp002509165'[&!color=#c736c2,!name="p__Thermoplasmatota"]
+	'GCA_902158735 d__Archaea|p__Halobacteriota|c__Methanoliparia|o__Methanoliparales|f__Methanoliparaceae|g__Methanolliviera|s__Methanolliviera sp902158735'[&!name="c_Methanoliparia"]
+	'GCA_902158745 d__Archaea|p__Halobacteriota|c__Methanoliparia|o__Methanoliparales|f__Methanoliparaceae|g__Methanolliviera|s__Methanolliviera sp902158745'[&!name="c_Methanoliparia"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('GCA_000011005 d__Archaea|p__Halobacteriota|c__Methanocellia|o__Methanocellales|f__Methanocellaceae|g__Methanocella|s__Methanocella paludicola':0.038667,'GCA_000251105 d__Archaea|p__Halobacteriota|c__Methanocellia|o__Methanocellales|f__Methanocellaceae|g__Methanocella|s__Methanocella conradii':0.023367,((('GCA_000063445 d__Archaea|p__Halobacteriota|c__Methanocellia|o__Methanocellales|f__Methanocellaceae|g__Methanocella_A|s__Methanocella_A arvoryzae':0.039543,('GCA_002067315 d__Archaea|p__Halobacteriota|c__Methanocellia|o__Methanocellales|f__Methanocellaceae|g__Methanocella_A|s__Methanocella_A sp002067315':0.025008,'GCA_023436075 d__Archaea|p__Halobacteriota|c__Methanocellia|o__Methanocellales|f__Methanocellaceae|g__Methanocella_A|s__Methanocella_A sp023436075':0.021131)[&singlesupports=1]:0.01848)[&singlesupports=1]:0.012755,'GCA_021023085 d__Archaea|p__Halobacteriota|c__Methanocellia|o__Methanocellales|f__Methanocellaceae|g__PGCK01|s__PGCK01 sp021023085':0.049236)[&singlesupports=1]:0.012205,(((('GCA_000025865 d__Archaea|p__Halobacteriota|c__Methanosarcinia|o__Methanosarcinales|f__Methanosarcinaceae|g__Methanohalophilus|s__Methanohalophilus mahii':0.072283,'GCA_000217995 d__Archaea|p__Halobacteriota|c__Methanosarcinia|o__Methanosarcinales|f__Methanosarcinaceae|g__Methanosalsum|s__Methanosalsum zhilinae':0.061765)[&singlesupports=1]:0.037649,('GCA_030605385 d__Archaea|p__Halobacteriota|c__Syntropharchaeia|o__JAUWIL01|f__JAUWIL01|g__JAUWIL01|s__JAUWIL01 sp030605385':0.102169,'GCA_001766815 d__Archaea|p__Halobacteriota|c__Syntropharchaeia|o__Syntropharchaeales|f__Syntropharchaeaceae|g__Syntropharchaeum|s__Syntropharchaeum caldarius':0.073994)[&singlesupports=1]:0.013497)[&singlesupports=0,!cartoon={4,0.048886299999999994}]:0.007721,('GCA_030643285 d__Archaea|p__Halobacteriota|c__Syntropharchaeia|o__DAOWMC01|f__DAOWMC01|g__DAOWMC01|s__DAOWMC01 sp030643285':0.120585,((('GCA_002495885 d__Archaea|p__Halobacteriota|c__UBA148|o__UBA148|f__UBA148|g__UBA148|s__UBA148 sp002495885':0.018871,'GCA_028715545 d__Archaea|p__Halobacteriota|c__UBA148|o__UBA148|f__UBA148|g__UBA148|s__UBA148 sp028715545':0.020387)[&singlesupports=1]:0.010029,'GCA_028715985 d__Archaea|p__Halobacteriota|c__UBA148|o__UBA148|f__UBA148|g__UBA148|s__UBA148 sp028715985':0.01885)[&singlesupports=1]:0.07625,('GCA_021129915 d__Archaea|p__Halobacteriota|c__UBA148|o__UBA148|f__JAJOKI01|g__JAJOKI01|s__JAJOKI01 sp021129915':0.080429,('GCA_026016205 d__Archaea|p__Halobacteriota|c__UBA148|o__UBA148|f__JAUWXC01|g__JAUWXC01|s__JAUWXC01 sp026016205':0.048457,'GCA_030018435 d__Archaea|p__Halobacteriota|c__UBA148|o__UBA148|f__JAUWXC01|g__JAUWXC01|s__JAUWXC01 sp030018435':0.034525)[&singlesupports=1]:0.021561)[&singlesupports=0]:0.009326)[&singlesupports=1]:0.008418)[&singlesupports=1,!cartoon={7,0.041435270000000024}]:0.010253)[&singlesupports=0]:0.004253,((((((('GCA_003139855 d__Archaea|p__Halobacteriota|c__Bog-38|o__Bog-38|f__Bog-38|g__Bog-38|s__Bog-38 sp003139855':0.002687,'GCA_003158275 d__Archaea|p__Halobacteriota|c__Bog-38|o__Bog-38|f__Bog-38|g__Bog-38|s__Bog-38 sp003158275':0.012319)[&singlesupports=1]:0.016868,('GCA_003162175 d__Archaea|p__Halobacteriota|c__Bog-38|o__Bog-38|f__Bog-38|g__Bog-38|s__Bog-38 sp003162175':0.015511,'GCA_015661395 d__Archaea|p__Halobacteriota|c__Bog-38|o__Bog-38|f__Bog-38|g__Bog-38|s__Bog-38 sp015661395':0.009312)[&singlesupports=1]:0.011542)[&singlesupports=1]:0.016594,('GCA_003170935 d__Archaea|p__Halobacteriota|c__Bog-38|o__Bog-38|f__Bog-38|g__Bog-38|s__Bog-38 sp003170935':0.03748,'GCA_015660915 d__Archaea|p__Halobacteriota|c__Bog-38|o__Bog-38|f__Bog-38|g__Bog-38|s__Bog-38 sp015660915':0.026031)[&singlesupports=0]:0.011533)[&singlesupports=1]:0.080954,'GCA_016207465 d__Archaea|p__Halobacteriota|c__Syntropharchaeia|o__JACQPP01|f__JACQPP01|g__JACQPP01|s__JACQPP01 sp016207465':0.122275)[&singlesupports=0,!cartoon={7,0.04277992000000003}]:0.014186,((((((((((('GCA_016207515 d__Archaea|p__Thermoplasmatota|c__SW-10-69-26|o__JACQPN01|f__JACQPN01|g__JACQPN01|s__JACQPN01 sp016207515':0.109557,'GCA_030630685 d__Archaea|p__Thermoplasmatota|c__DAOVMN01|o__DAOVMN01|f__DAOVMN01|g__DAOVMN01|s__DAOVMN01 sp030630685':0.110952)[&singlesupports=0]:0.008737,'GCA_000025665 d__Archaea|p__Thermoplasmatota|c__Thermoplasmata|o__Aciduliprofundales|f__Aciduliprofundaceae|g__Aciduliprofundum|s__Aciduliprofundum boonei':0.096052)[&singlesupports=0]:0.005938,'GCA_030748895 d__Archaea|p__Thermoplasmatota|c__Poseidoniia|o__MGIII|f__CG-Epi1|g__UBA8886|s__UBA8886 sp002509165':0.146698)[&singlesupports=0]:0.003596,('GCA_028716125 d__Archaea|p__Thermoplasmatota|c__JAQUQK01|o__JAQUQK01|f__JAQUQK01|g__JAQUQK01|s__JAQUQK01 sp028716125':0.117655,'GCA_030018475 d__Archaea|p__Thermoplasmatota|c__JASEFT01|o__JASEFT01|f__JASEFT01|g__JASEFT01|s__JASEFT01 sp030018475':0.113907)[&singlesupports=0]:0.017193)[&singlesupports=0]:0.005579,((('GCA_016874675 d__Archaea|p__Thermoplasmatota|c__DTKX01|o__DTKX01|f__VGTL01|g__VGTL01|s__VGTL01 sp016874675':0.122413,'GCA_028279595 d__Archaea|p__Thermoplasmatota|c__JAKEGO01|o__JAKEGO01|f__JAKEGO01|g__JANQNK01|s__JANQNK01 sp028279595':0.113722)[&singlesupports=0]:0.009114,('GCA_020356005 d__Archaea|p__Thermoplasmatota|c__JAEHCK01|o__JAEHCK01|f__GCA-020356005|g__GCA-020356005|s__GCA-020356005 sp020356005':0.09268,'GCA_028279585 d__Archaea|p__Thermoplasmatota|c__JANQNL01|o__JANQNL01|f__JANQNL01|g__JANQNL01|s__JANQNL01 sp028279585':0.123209)[&singlesupports=1]:0.016092)[&singlesupports=0]:0.008323,('GCA_029932465 d__Archaea|p__Thermoplasmatota|c__EX4484-6|o__EX4484-6|f__EX4484-36|g__EX4484-36|s__EX4484-36 sp002254765':0.090088,'GCA_030740765 d__Archaea|p__Thermoplasmatota|c__JASLWR01|o__JASLWR01|f__JASLWR01|g__JASLWR01|s__JASLWR01 sp030740765':0.142015)[&singlesupports=0]:0.008716)[&singlesupports=0]:0.00921)[&singlesupports=0]:0.007417,('GCA_014361245 d__Archaea|p__Thermoplasmatota|c__E2|o__UBA202|f__JdFR-43|g__JACIWB01|s__JACIWB01 sp014361245':0.09383,'GCA_002494765 d__Archaea|p__Thermoplasmatota|c__UBA186|o__UBA186|f__UBA186|g__UBA186|s__UBA186 sp002494765':0.137507)[&singlesupports=1]:0.010642)[&singlesupports=1]:0.012518,'GCA_003663585 d__Archaea|p__Thermoplasmatota|c__B47-G6|o__B47-G6B|f__47-G6|g__B47-G6|s__B47-G6 sp003663585':0.13499)[&singlesupports=0,!cartoon={15,0.02668175000000006}]:0.007682,(('GCA_004212075 d__Archaea|p__Halobacteriota|c__Methanoliparia|o__Methanoliparales|f__Methanoliparaceae|g__Methanoliparum|s__Methanoliparum thermophilum':0.035919,'GCA_013329575 d__Archaea|p__Halobacteriota|c__Methanoliparia|o__Methanoliparales|f__Methanoliparaceae|g__Methanoliparum|s__Methanoliparum sp8915u':0.042611)[&singlesupports=1]:0.051828,(('GCA_004212085 d__Archaea|p__Halobacteriota|c__Methanoliparia|o__Methanoliparales|f__Methanoliparaceae|g__Methanolliviera|s__Methanolliviera hydrocarbonicum':0.017171,'GCA_902158735 d__Archaea|p__Halobacteriota|c__Methanoliparia|o__Methanoliparales|f__Methanoliparaceae|g__Methanolliviera|s__Methanolliviera sp902158735':0.019175)[&singlesupports=0]:0.006831,'GCA_902158745 d__Archaea|p__Halobacteriota|c__Methanoliparia|o__Methanoliparales|f__Methanoliparaceae|g__Methanolliviera|s__Methanolliviera sp902158745':0.014228)[&singlesupports=1]:0.085929)[&singlesupports=1,!cartoon={5,0.05936418000000007}]:0.035257)[&singlesupports=0]:0.005752,('GCA_000025285 d__Archaea|p__Halobacteriota|c__Archaeoglobi|o__Archaeoglobales|f__Archaeoglobaceae|g__Archaeoglobus_B|s__Archaeoglobus_B profundus':0.047185,('GCA_000025505 d__Archaea|p__Halobacteriota|c__Archaeoglobi|o__Archaeoglobales|f__Archaeoglobaceae|g__Ferroglobus|s__Ferroglobus placidus':0.035529,('GCA_000789255 d__Archaea|p__Halobacteriota|c__Archaeoglobi|o__Archaeoglobales|f__Archaeoglobaceae|g__Geoglobus|s__Geoglobus acetivorans':0.033741,'GCA_001006045 d__Archaea|p__Halobacteriota|c__Archaeoglobi|o__Archaeoglobales|f__Archaeoglobaceae|g__Geoglobus|s__Geoglobus ahangari':0.018821)[&singlesupports=1]:0.02144)[&singlesupports=0]:0.013948)[&singlesupports=1,!cartoon={4,0.08261152000000005}]:0.049064)[&singlesupports=0]:0.003858,(('GCA_021159465 d__Archaea|p__Halobacteriota|c__Syntropharchaeia|o__Alkanophagales|f__Methanospirareceae|g__G60ANME1|s__G60ANME1 sp021159465':0.061317,'GCA_030611045 d__Archaea|p__Halobacteriota|c__Syntropharchaeia|o__Alkanophagales|f__Methanospirareceae|g__JACGMN01|s__JACGMN01 sp030611045':0.083811)[&singlesupports=1]:0.052369,('GCA_002011165 d__Archaea|p__Halobacteriota|c__Archaeoglobi|o__Mnemosynellales|f__Mnemosynellaceae|g__Mnemosynella|s__Mnemosynella biddleae':0.031892,'GCA_014361165 d__Archaea|p__Halobacteriota|c__Archaeoglobi|o__Mnemosynellales|f__Mnemosynellaceae|g__Mnemosynella|s__Mnemosynella bozhongmuii':0.021435)[&singlesupports=1]:0.056441)[&singlesupports=0,!cartoon={4,0.05042757000000003}]:0.010339)[&singlesupports=0]:0.005436,((('GCA_013377755 d__Archaea|p__Halobacteriota|c__Methanomicrobia|o__Methanomicrobiales|f__Methanofollaceae|g__Methanofollis|s__Methanofollis tationis':0.056778,'GCA_024662215 d__Archaea|p__Halobacteriota|c__Methanomicrobia|o__Methanomicrobiales|f__Methanomicrobiaceae|g__Methanoplanus|s__Methanoplanus endosymbiosus':0.092328)[&singlesupports=1]:0.012428,(('GCA_015660865 d__Archaea|p__Halobacteriota|c__Methanomicrobia|o__Methanomicrobiales|f__JACTUA01|g__JACTUA01|s__JACTUA01 sp015660865':0.07714,'GCA_026625165 d__Archaea|p__Halobacteriota|c__Methanomicrobia|o__Methanomicrobiales|f__Methanospirillaceae|g__MVRE01|s__MVRE01 sp026625165':0.081539)[&singlesupports=1]:0.014095,'GCA_030019085 d__Archaea|p__Halobacteriota|c__Methanomicrobia|o__Methanomicrobiales|f__Methanoculleaceae|g__Methanoculleus|s__Methanoculleus sp030019085':0.056425)[&singlesupports=1]:0.007465)[&singlesupports=1]:0.011865,'GCA_024170265 d__Archaea|p__Halobacteriota|c__Methanomicrobia|o__Methanomicrobiales|f__Methanocorpusculaceae|g__Methanocalculus|s__Methanocalculus sp003838185':0.087446)[&singlesupports=1,!cartoon={6,0.031091730000000095}]:0.043798)[&singlesupports=0]:0.004579)[&singlesupports=0]:0.003044,(('GCA_018263395 d__Archaea|p__Halobacteriota|c__Methanonatronarchaeia|o__JAANXF01|f__JAANXF01|g__JAANXF01|s__JAANXF01 sp018263395':0.118554,('GCA_001914405 d__Archaea|p__Halobacteriota|c__Methanonatronarchaeia|o__Methanonatronarchaeales|f__Methanonatronarchaeaceae|g__Methanohalarchaeum|s__Methanohalarchaeum thermophilum':0.083039,('GCA_003034855 d__Archaea|p__Halobacteriota|c__Methanonatronarchaeia|o__Methanonatronarchaeales|f__Methanonatronarchaeaceae|g__PZKD01|s__PZKD01 sp003034855':0.077202,(('GCA_002153915 d__Archaea|p__Halobacteriota|c__Methanonatronarchaeia|o__Methanonatronarchaeales|f__Methanonatronarchaeaceae|g__Methanonatronarchaeum|s__Methanonatronarchaeum thermophilum':0.026132,'GCA_029854155 d__Archaea|p__Halobacteriota|c__Methanonatronarchaeia|o__Methanonatronarchaeales|f__Methanonatronarchaeaceae|g__Methanonatronarchaeum|s__Methanonatronarchaeum sp029854155':0.025982)[&singlesupports=1]:0.011297,'GCA_023016325 d__Archaea|p__Halobacteriota|c__Methanonatronarchaeia|o__Methanonatronarchaeales|f__Methanonatronarchaeaceae|g__Methanonatronarchaeum|s__Methanonatronarchaeum sp004212035':0.029656)[&singlesupports=1]:0.045689)[&singlesupports=0]:0.012051)[&singlesupports=1]:0.031993)[&singlesupports=1,!cartoon={6,0.028994800000000043}]:0.013596,(('GCA_000230955 d__Archaea|p__Halobacteriota|c__Halobacteria|o__Halobacteriales|f__Halobacteriaceae|g__Halobacterium|s__Halobacterium sp000230955':0.070647,('GCA_000746205 d__Archaea|p__Halobacteriota|c__Halobacteria|o__Halobacteriales|f__Haloferacaceae|g__Halorubrum|s__Halorubrum sp000746205':0.064466,'GCA_003058365 d__Archaea|p__Halobacteriota|c__Halobacteria|o__Halobacteriales|f__Haloarculaceae|g__Halococcoides|s__Halococcoides cellulosivorans':0.070069)[&singlesupports=0]:0.016573)[&singlesupports=1]:0.031577,(('GCA_026242195 d__Archaea|p__Halobacteriota|c__Halobacteria|o__Halorutilales|f__Halorutilaceae|g__Halorutilus|s__Halorutilus salinus':0.032306,'GCA_028751095 d__Archaea|p__Halobacteriota|c__Halobacteria|o__Halorutilales|f__Halorutilaceae|g__Halorutilus|s__Halorutilus sp028751095':0.026895)[&singlesupports=1]:0.033971,'GCA_028751075 d__Archaea|p__Halobacteriota|c__Halobacteria|o__Halorutilales|f__Halorutilaceae|g__JAQZDA01|s__JAQZDA01 sp028751075':0.06719)[&singlesupports=1]:0.034343)[&singlesupports=1,!cartoon={6,0.0}]:0.051533)[&singlesupports=1]:0.014136)[&singlesupports=0]:0.003532,(('GCA_000014945 d__Archaea|p__Halobacteriota|c__Methanosarcinia|o__Methanotrichales|f__Methanotrichaceae|g__Methanothrix_B|s__Methanothrix_B thermoacetophila':0.013304,'GCA_029907715 d__Archaea|p__Halobacteriota|c__Methanosarcinia|o__Methanotrichales|f__Methanotrichaceae|g__Methanothrix_B|s__Methanothrix_B sp029907715':0.013023)[&singlesupports=1]:0.080548,('GCA_000711905 d__Archaea|p__Halobacteriota|c__Methanosarcinia|o__Methanosarcinales_A|f__Methermicoccaceae|g__Methermicoccus|s__Methermicoccus shengliensis':0.06398,'GCA_002010075 d__Archaea|p__Halobacteriota|c__Methanosarcinia|o__Methanosarcinales_A|f__Methermicoccaceae|g__JdFR-19|s__JdFR-19 sp002010075':0.081523)[&singlesupports=1]:0.018801)[&singlesupports=1,!cartoon={4,0.06467122}]:0.01536)[&singlesupports=0]:0.003829)[&singlesupports=1,!cartoon={6,0.05632289000000007}]:0.051756)[&singlesupports=1]:0.019321);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="singlesupports";
+	set branchLabels.displayAttribute="singlesupports";
+	set branchLabels.fontName=".AppleSystemUIFont";
+	set branchLabels.fontSize=9;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set colour.order.singlesupports="singlesupports:0,1";
+	set colour.scheme.singlesupports="singlesupports:HSBDiscrete{hue,1,0.0,1.0,0.853,1.0,0.4,0.679}";
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="singlesupports";
+	set legend.fontSize=9.0;
+	set legend.isShown=true;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName=".AppleSystemUIFont";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=0.05;
+	set scaleAxis.minorTicks=0.025;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName=".AppleSystemUIFont";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
