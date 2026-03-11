@@ -1,0 +1,309 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Dec 12 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    MacBookPro.fritz.box (SSE4.2, 8 GB RAM)
+Command: iqtree2 -quiet -s 9_concatenations/p_Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_einsi.concatenation -m MFP -mset LG,Q.pfam,WAG,JTT -mfreq FU,F,FO -bb 1000 -alrt 1000 -nt AUTO
+Seed:    36084 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Nov 16 17:29:52 2025
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file 9_concatenations/p_Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_einsi.concatenation ... Fasta format detected
+Reading fasta file: done in 0.0121081 secs using 85.72% CPU
+Alignment most likely contains protein sequences
+Alignment has 74 sequences with 14460 columns, 13628 distinct patterns
+12102 parsimony-informative, 830 singleton sites, 1528 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000622988 secs using 362.4% CPU
+   1  GCA_000011005    4.25%    failed      0.00%
+   2  GCA_000251105    4.19%    failed      0.01%
+   3  GCA_000063445    4.23%    failed      0.00%
+   4  GCA_002067315    4.50%    failed      0.00%
+   5  GCA_023436075   10.82%    failed      0.01%
+   6  GCA_021023085    8.26%    failed      0.00%
+   7  GCA_000025865    0.17%    failed      0.00%
+   8  GCA_000217995    0.18%    failed      0.00%
+   9  GCA_003139855    1.84%    failed      0.00%
+  10  GCA_003158275   29.92%    failed      0.00%
+  11  GCA_003162175    2.61%    failed      0.00%
+  12  GCA_015661395    1.96%    failed      0.00%
+  13  GCA_003170935    9.16%    failed      0.00%
+  14  GCA_015660915    1.58%    failed      0.00%
+  15  GCA_000014945    0.51%    failed      0.00%
+  16  GCA_029907715    0.48%    failed      0.00%
+  17  GCA_030605385    7.07%    failed      0.00%
+  18  GCA_030643285   37.24%    failed      0.00%
+  19  GCA_002495885    0.82%    failed      0.00%
+  20  GCA_028715545    4.61%    failed      0.00%
+  21  GCA_028715985    0.76%    failed      0.00%
+  22  GCA_000711905    0.30%    failed      0.00%
+  23  GCA_002010075    2.43%    failed      0.00%
+  24  GCA_016207515    0.56%    failed      0.00%
+  25  GCA_028716125   19.69%    failed      0.00%
+  26  GCA_021159465   10.29%    failed      0.00%
+  27  GCA_030611045    7.07%    failed      0.05%
+  28  GCA_016874675    5.71%    failed      0.00%
+  29  GCA_020356005   12.28%    failed      0.00%
+  30  GCA_028279585   13.42%    failed      0.00%
+  31  GCA_029932465    9.00%    failed      0.00%
+  32  GCA_000025665    2.53%    failed      0.00%
+  33  GCA_030630685   19.61%    failed      0.00%
+  34  GCA_002011165    0.39%    failed      0.00%
+  35  GCA_014361165    3.33%    failed      0.00%
+  36  GCA_000025285    1.38%    failed      0.00%
+  37  GCA_000025505    1.43%    failed      0.00%
+  38  GCA_000789255    0.93%    failed      0.00%
+  39  GCA_001006045    0.95%    failed      0.00%
+  40  GCA_001766815    4.47%    failed      4.96%
+  41  GCA_018263395   30.89%    failed      0.00%
+  42  GCA_014361245    5.37%    failed      0.00%
+  43  GCA_030740765    9.76%    failed      0.00%
+  44  GCA_021129915   14.94%    failed      0.00%
+  45  GCA_026016205    0.30%    failed      0.00%
+  46  GCA_030018435    0.50%    failed      0.01%
+  47  GCA_001914405    0.71%    failed      0.00%
+  48  GCA_003034855    0.48%    failed      0.00%
+  49  GCA_002153915    0.47%    failed      0.00%
+  50  GCA_029854155    0.49%    failed      0.00%
+  51  GCA_023016325    0.39%    failed      0.00%
+  52  GCA_000230955    0.92%    failed      0.00%
+  53  GCA_000746205    0.72%    failed      0.00%
+  54  GCA_003058365    1.02%    failed      0.00%
+  55  GCA_026242195    0.82%    failed      0.00%
+  56  GCA_028751095    6.31%    failed      0.00%
+  57  GCA_028751075    4.49%    failed      0.00%
+  58  GCA_004212075    4.84%    failed      0.00%
+  59  GCA_013329575   11.93%    failed      0.00%
+  60  GCA_004212085    7.24%    failed      0.00%
+  61  GCA_902158745    1.04%    failed      0.00%
+  62  GCA_902158735   24.48%    failed      0.00%
+  63  GCA_013377755    1.52%    failed      0.00%
+  64  GCA_024170265    1.36%    failed      0.00%
+  65  GCA_015660865    1.67%    failed      0.00%
+  66  GCA_024662215    1.33%    failed      0.01%
+  67  GCA_026625165    1.40%    failed      0.00%
+  68  GCA_030019085    1.35%    failed      0.00%
+  69  GCA_030018475    5.89%    failed      0.00%
+  70  GCA_002494765    3.36%    failed      0.00%
+  71  GCA_030748895    3.71%    failed      0.00%
+  72  GCA_028279595    9.49%    failed      0.00%
+  73  GCA_016207465   32.46%    failed      0.00%
+  74  GCA_003663585   26.24%    failed      0.00%
+****  TOTAL            6.34%  74 sequences failed composition chi2 test (p-value<5%; df=19)
+
+NOTE: Restoring information from model checkpoint file 9_concatenations/p_Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_einsi.concatenation.model.gz
+
+CHECKPOINT: Initial tree restored
+Measuring multi-threading efficiency up to 8 CPU cores
+5 trees examined
+Threads: 1 / Time: 8.908 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1324248
+Threads: 2 / Time: 5.939 sec / Speedup: 1.500 / Efficiency: 75% / LogL: -1324248
+Threads: 3 / Time: 4.060 sec / Speedup: 2.194 / Efficiency: 73% / LogL: -1324248
+Threads: 4 / Time: 3.185 sec / Speedup: 2.797 / Efficiency: 70% / LogL: -1324248
+Threads: 5 / Time: 2.793 sec / Speedup: 3.190 / Efficiency: 64% / LogL: -1324248
+Threads: 6 / Time: 2.690 sec / Speedup: 3.312 / Efficiency: 55% / LogL: -1324248
+Threads: 7 / Time: 2.663 sec / Speedup: 3.345 / Efficiency: 48% / LogL: -1324248
+BEST NUMBER OF THREADS: 5
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -993471.149
+Optimal log-likelihood: -993471.031
+Proportion of invariable sites: 0.089
+Gamma shape alpha: 1.019
+Parameters optimization took 1 rounds (1.546 sec)
+Time for fast ML tree search: 17.257 seconds
+
+NOTE: ModelFinder requires 1612 MB RAM!
+ModelFinder will test up to 264 protein models (sample size: 14460 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            1065421.151  145 2131132.302  2131135.260  2132231.277
+  2  LG+I          1046187.788  146 2092667.575  2092670.574  2093774.130
+  3  LG+G4         994592.177   146 1989476.353  1989479.352  1990582.908
+  4  LG+I+G4       993471.030   147 1987236.060  1987239.100  1988350.193
+  5  LG+R2         1008985.016  147 2018264.032  2018267.073  2019378.166
+  6  LG+R3         996855.161   149 1994008.321  1994011.445  1995137.613
+  7  LG+R4         993712.237   151 1987726.475  1987729.683  1988870.925
+  8  LG+R5         992771.939   153 1985849.879  1985853.173  1987009.487
+  9  LG+R6         992444.335   155 1985198.670  1985202.051  1986373.437
+ 10  LG+R7         992379.988   157 1985073.976  1985077.445  1986263.901
+ 11  LG+R8         992342.025   159 1985002.050  1985005.608  1986207.133
+ 12  LG+R9         992341.232   161 1985004.464  1985008.113  1986224.706
+ 14  LG+I+R2       1003515.266  148 2007326.533  2007329.615  2008448.246
+ 15  LG+I+R3       995234.137   150 1990768.274  1990771.440  1991905.145
+ 16  LG+I+R4       993131.805   152 1986567.609  1986570.860  1987719.639
+ 17  LG+I+R5       992526.680   154 1985361.360  1985364.697  1986528.548
+ 18  LG+I+R6       992392.533   156 1985097.066  1985100.491  1986279.412
+ 19  LG+I+R7       992347.644   158 1985011.289  1985014.802  1986208.793
+ 20  LG+I+R8       992345.678   160 1985011.356  1985014.960  1986224.019
+ 33  LG+F+R8       990055.011   178 1980466.022  1980470.484  1981815.109
+ 41  LG+F+I+R7     990059.487   177 1980472.974  1980477.386  1981814.482
+ 55  LG+FO+R8      989063.308   178 1978482.615  1978487.077  1979831.703
+ 63  LG+FO+I+R7    989067.856   177 1978489.712  1978494.124  1979831.220
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 77  Q.pfam+R8     994030.298   159 1988378.597  1988382.155  1989583.680
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 85  Q.pfam+I+R7   994035.362   158 1988386.724  1988390.237  1989584.228
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 99  Q.pfam+F+R8   991435.339   178 1983226.677  1983231.140  1984575.765
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+107  Q.pfam+F+I+R7 991440.123   177 1983234.245  1983238.657  1984575.753
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+121  Q.pfam+FO+R8  989723.414   178 1979802.828  1979807.290  1981151.915
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+129  Q.pfam+FO+I+R7 989728.223   177 1979810.445  1979814.857  1981151.953
+143  WAG+R8        1000579.100  159 2001476.199  2001479.757  2002681.283
+151  WAG+I+R7      1000586.315  158 2001488.630  2001492.144  2002686.135
+165  WAG+F+R8      996704.396   178 1993764.793  1993769.255  1995113.880
+173  WAG+F+I+R7    996715.022   177 1993784.044  1993788.456  1995125.552
+187  WAG+FO+R8     994815.307   178 1989986.615  1989991.077  1991335.702
+195  WAG+FO+I+R7   994822.941   177 1989999.882  1990004.294  1991341.390
+209  JTT+R8        1003651.061  159 2007620.122  2007623.680  2008825.205
+217  JTT+I+R7      1003654.524  158 2007625.047  2007628.561  2008822.552
+231  JTT+F+R8      1001297.669  178 2002951.339  2002955.801  2004300.426
+239  JTT+F+I+R7    1001301.947  177 2002957.895  2002962.307  2004299.403
+253  JTT+FO+R8     997877.170   178 1996110.340  1996114.802  1997459.427
+261  JTT+FO+I+R7   997881.905   177 1996117.811  1996122.223  1997459.319
+Akaike Information Criterion:           LG+FO+R8
+Corrected Akaike Information Criterion: LG+FO+R8
+Bayesian Information Criterion:         LG+FO+I+R7
+Best-fit model: LG+FO+I+R7 chosen according to BIC
+
+All model information printed to 9_concatenations/p_Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_einsi.concatenation.model.gz
+CPU time for ModelFinder: 14962.215 seconds (4h:9m:22s)
+Wall-clock time for ModelFinder: 3708.235 seconds (1h:1m:48s)
+Generating 1000 samples for ultrafast bootstrap (seed: 36084)...
+
+NOTE: 1144 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -990199.025
+2. Current log-likelihood: -989070.917
+3. Current log-likelihood: -989067.954
+4. Current log-likelihood: -989067.743
+Optimal log-likelihood: -989067.739
+Proportion of invariable sites: 0.067
+Site proportion and rates:  (0.132,0.068) (0.143,0.254) (0.185,0.553) (0.189,1.009) (0.160,1.728) (0.100,2.809) (0.025,4.287)
+Parameters optimization took 4 rounds (224.319 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.716719 secs using 482.9% CPU
+Computing ML distances took 0.718922 sec (of wall-clock time) 3.464248 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000154972 secs using 181.3% CPU
+Computing RapidNJ tree took 0.004474 sec (of wall-clock time) 0.002218 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -990353.418
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 20.714 second
+Computing log-likelihood of 98 initial trees ... 89.126 seconds
+Current best score: -989067.739
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -989052.853
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -988997.615
+Iteration 10 / LogL: -989187.941 / Time: 1h:12m:25s
+Iteration 20 / LogL: -989134.549 / Time: 1h:14m:34s
+Finish initializing candidate tree set (10)
+Current best tree score: -988997.615 / CPU time: 527.645
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -988955.368
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -988949.869
+Iteration 30 / LogL: -988982.377 / Time: 1h:20m:52s (1h:1m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -988926.957
+Iteration 40 / LogL: -989034.238 / Time: 1h:25m:38s (0h:56m:50s left)
+Iteration 50 / LogL: -989081.362 / Time: 1h:28m:44s (0h:45m:37s left)
+Log-likelihood cutoff on original alignment: -989148.855
+Iteration 60 / LogL: -989029.349 / Time: 1h:32m:12s (0h:37m:36s left)
+Iteration 70 / LogL: -988954.688 / Time: 1h:35m:37s (0h:30m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 77: -988921.409
+Iteration 80 / LogL: -988948.478 / Time: 1h:41m:11s (0h:48m:22s left)
+Iteration 90 / LogL: -989016.550 / Time: 1h:44m:35s (0h:41m:49s left)
+Iteration 100 / LogL: -988929.472 / Time: 1h:48m:5s (0h:36m:0s left)
+Log-likelihood cutoff on original alignment: -989119.504
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 109: -988912.059
+Iteration 110 / LogL: -988949.910 / Time: 1h:54m:7s (0h:47m:31s left)
+Iteration 120 / LogL: -988960.412 / Time: 1h:57m:28s (0h:41m:38s left)
+Iteration 130 / LogL: -988937.025 / Time: 2h:0m:47s (0h:36m:7s left)
+Iteration 140 / LogL: -988926.417 / Time: 2h:4m:19s (0h:31m:1s left)
+Iteration 150 / LogL: -988929.518 / Time: 2h:7m:46s (0h:26m:7s left)
+Log-likelihood cutoff on original alignment: -989119.504
+Iteration 160 / LogL: -988965.936 / Time: 2h:11m:6s (0h:21m:21s left)
+Iteration 170 / LogL: -989006.965 / Time: 2h:14m:14s (0h:16m:42s left)
+Iteration 180 / LogL: -988939.418 / Time: 2h:17m:24s (0h:12m:14s left)
+Iteration 190 / LogL: -988966.552 / Time: 2h:20m:38s (0h:7m:55s left)
+Iteration 200 / LogL: -988988.516 / Time: 2h:23m:58s (0h:3m:42s left)
+Log-likelihood cutoff on original alignment: -989119.504
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.984
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -989061.788 / Time: 2h:27m:14s (0h:36m:47s left)
+Iteration 220 / LogL: -988952.808 / Time: 2h:30m:18s (0h:32m:19s left)
+Iteration 230 / LogL: -988933.066 / Time: 2h:33m:25s (0h:28m:0s left)
+Iteration 240 / LogL: -988932.775 / Time: 2h:36m:41s (0h:23m:49s left)
+Iteration 250 / LogL: -988938.321 / Time: 2h:39m:55s (0h:19m:42s left)
+Log-likelihood cutoff on original alignment: -989119.504
+Iteration 260 / LogL: -989023.359 / Time: 2h:43m:16s (0h:15m:40s left)
+Iteration 270 / LogL: -988928.694 / Time: 2h:46m:14s (0h:11m:38s left)
+Iteration 280 / LogL: -988937.081 / Time: 2h:49m:26s (0h:7m:42s left)
+Iteration 290 / LogL: -988953.279 / Time: 2h:52m:39s (0h:3m:50s left)
+Iteration 300 / LogL: -988947.898 / Time: 2h:56m:0s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -989119.540
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 300 ITERATIONS / Time: 2h:56m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -988912.059
+2. Current log-likelihood: -988912.039
+3. Current log-likelihood: -988912.028
+Optimal log-likelihood: -988912.011
+Proportion of invariable sites: 0.067
+Site proportion and rates:  (0.134,0.069) (0.144,0.257) (0.189,0.562) (0.190,1.029) (0.159,1.772) (0.096,2.887) (0.021,4.401)
+Parameters optimization took 3 rounds (33.097 sec)
+BEST SCORE FOUND : -988912.011
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+6.480 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file 9_concatenations/p_Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_einsi.concatenation.splits.nex
+Total tree length: 25.247
+
+Total number of iterations: 300
+CPU time used for tree search: 26458.626 sec (7h:20m:58s)
+Wall-clock time used for tree search: 6613.940 sec (1h:50m:13s)
+Total CPU time used: 42554.099 sec (11h:49m:14s)
+Total wall-clock time used: 10600.858 sec (2h:56m:40s)
+
+Computing bootstrap consensus tree...
+Reading input file 9_concatenations/p_Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_einsi.concatenation.splits.nex...
+74 taxa and 234 splits.
+Consensus tree written to 9_concatenations/p_Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_einsi.concatenation.contree
+Reading input trees file 9_concatenations/p_Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_einsi.concatenation.contree
+Log-likelihood of consensus tree: -988957.900
+
+Analysis results written to: 
+  IQ-TREE report:                9_concatenations/p_Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_einsi.concatenation.iqtree
+  Maximum-likelihood tree:       9_concatenations/p_Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_einsi.concatenation.treefile
+  Likelihood distances:          9_concatenations/p_Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_einsi.concatenation.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          9_concatenations/p_Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_einsi.concatenation.splits.nex
+  Consensus tree:                9_concatenations/p_Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_einsi.concatenation.contree
+  Screen log file:               9_concatenations/p_Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_einsi.concatenation.log
+
+Date and Time: Sun Nov 16 20:26:51 2025

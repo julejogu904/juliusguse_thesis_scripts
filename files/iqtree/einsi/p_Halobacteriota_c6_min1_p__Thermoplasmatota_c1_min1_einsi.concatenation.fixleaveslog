@@ -1,0 +1,13 @@
+#Script: fixleaves.py
+#Version: v20241212
+#Usage: python fixleaves.py <input_tree> <assembliesnames_file> <output_tree>
+#<input_tree> must be the input phylogenetic tree in Newick format. (required)
+#<input_names> must be a file containing the names of the leaves that will be used for renaming. The current leaf name must be contained in the new names. Tabs as in .assembliesnames are converted to spaces. (required)
+#<output_tree> must be the name of the output Newick tree file. (required)
+#For more information refer to the comments in the script and/or the Github page.
+Three arguments found. Proceeding.
+Input tree file found. Proceeding.
+Assembliesnames file found. Proceeding.
+Removing files with names identical to the output.
+Converting leaf names.
+All done!
