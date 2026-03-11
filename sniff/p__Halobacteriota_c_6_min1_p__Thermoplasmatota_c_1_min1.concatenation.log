@@ -1,0 +1,96 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Dec 12 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    MacBook-Pro.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -quiet -s /Users/Julius/Bachelorthesis/Halobacteriota/sniff/p__Halobacteriota_c_6_min1_p__Thermoplasmatota_c_1_min1_sniff/p__Halobacteriota_c_6_min1_p__Thermoplasmatota_c_1_min1.concatenation -m SR4C60 -mdef /Users/Julius/Bachelorthesis/WhereDoGGo-main/nexus/Iqtree_C60sr4.nex -ft /Users/Julius/Bachelorthesis/Halobacteriota/zoomies/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_SR4/p__Halobacteriota_c_6_min1_p__Thermoplasmatota_c_1_min1.concatenation.treefile -bb 1000 -alrt 1000 -nt AUTO
+Seed:    30580 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Sep  2 13:07:36 2025
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file /Users/Julius/Bachelorthesis/Halobacteriota/sniff/p__Halobacteriota_c_6_min1_p__Thermoplasmatota_c_1_min1_sniff/p__Halobacteriota_c_6_min1_p__Thermoplasmatota_c_1_min1.concatenation ... Fasta format detected
+Reading fasta file: done in 0.0163341 secs using 89.14% CPU
+Alignment most likely contains protein sequences
+Alignment has 74 sequences with 13516 columns, 12687 distinct patterns
+11181 parsimony-informative, 816 singleton sites, 1519 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000457048 secs using 426.4% CPU
+   1  GCA_000011005    3.99%    failed      0.09%
+   2  GCA_000251105    3.92%    failed      0.06%
+   3  GCA_000063445    3.94%    failed      0.01%
+   4  GCA_002067315    4.25%    failed      0.01%
+   5  GCA_023436075   10.62%    failed      0.05%
+   6  GCA_021023085    8.01%    failed      0.02%
+   7  GCA_000025865    0.10%    failed      0.00%
+   8  GCA_000217995    0.10%    failed      0.00%
+   9  GCA_003139855    1.64%    failed      0.00%
+  10  GCA_003158275   29.83%    failed      0.13%
+  11  GCA_003162175    2.43%    failed      0.00%
+  12  GCA_015661395    1.74%    failed      0.00%
+  13  GCA_003170935    8.93%    failed      0.00%
+  14  GCA_015660915    1.34%    failed      0.00%
+  15  GCA_000014945    0.22%    failed      0.00%
+  16  GCA_029907715    0.24%    failed      0.00%
+  17  GCA_030605385    6.32%    failed      0.00%
+  18  GCA_030643285   36.96%    failed      0.00%
+  19  GCA_002495885    0.64%    failed      0.00%
+  20  GCA_028715545    4.48%    failed      0.00%
+  21  GCA_028715985    0.58%    failed      0.00%
+  22  GCA_000711905    0.13%    failed      0.00%
+  23  GCA_002010075    2.02%    failed      0.00%
+  24  GCA_016207515    0.42%    failed      0.00%
+  25  GCA_028716125   19.19%    failed      0.00%
+  26  GCA_021159465    9.66%    failed      0.00%
+  27  GCA_030611045    6.53%    failed      0.31%
+  28  GCA_016874675    5.66%    failed      0.00%
+  29  GCA_020356005   11.87%    failed      0.00%
+  30  GCA_028279585   12.73%    failed      0.00%
+  31  GCA_029932465    8.92%    failed      0.00%
+  32  GCA_000025665    1.97%    failed      0.00%
+  33  GCA_030630685   19.29%    failed      0.00%
+  34  GCA_002011165    0.21%    failed      0.00%
+  35  GCA_014361165    3.13%    failed      0.00%
+  36  GCA_000025285    0.87%    failed      0.00%
+  37  GCA_000025505    1.03%    failed      0.00%
+  38  GCA_000789255    0.60%    failed      0.00%
+  39  GCA_001006045    0.61%    failed      0.00%
+  40  GCA_001766815    4.05%    passed      6.26%
+  41  GCA_018263395   30.24%    failed      0.00%
+  42  GCA_014361245    4.68%    failed      0.00%
+  43  GCA_030740765    9.80%    failed      0.00%
+  44  GCA_021129915   14.63%    failed      0.00%
+  45  GCA_026016205    0.23%    failed      0.00%
+  46  GCA_030018435    0.43%    failed      0.50%
+  47  GCA_001914405    0.58%    failed      0.00%
+  48  GCA_003034855    0.31%    failed      0.00%
+  49  GCA_002153915    0.38%    failed      0.00%
+  50  GCA_029854155    0.37%    failed      0.00%
+  51  GCA_023016325    0.31%    failed      0.00%
+  52  GCA_000230955    0.61%    failed      0.00%
+  53  GCA_000746205    0.47%    failed      0.00%
+  54  GCA_003058365    0.70%    failed      0.00%
+  55  GCA_026242195    0.47%    failed      0.00%
+  56  GCA_028751095    5.79%    failed      0.00%
+  57  GCA_028751075    3.71%    failed      0.00%
+  58  GCA_004212075    4.42%    failed      0.00%
+  59  GCA_013329575   11.53%    failed      0.00%
+  60  GCA_004212085    6.85%    failed      0.00%
+  61  GCA_902158745    0.87%    failed      0.00%
+  62  GCA_902158735   24.84%    failed      0.00%
+  63  GCA_013377755    1.30%    failed      0.00%
+  64  GCA_024170265    1.21%    failed      0.00%
+  65  GCA_015660865    1.53%    failed      0.00%
+  66  GCA_024662215    1.16%    failed      0.05%
+  67  GCA_026625165    1.22%    failed      0.00%
+  68  GCA_030019085    1.15%    failed      0.00%
+  69  GCA_030018475    5.41%    failed      0.00%
+  70  GCA_002494765    2.75%    failed      0.00%
+  71  GCA_030748895    3.16%    failed      0.00%
+  72  GCA_028279595    9.23%    failed      0.00%
+  73  GCA_016207465   32.72%    failed      0.00%
+  74  GCA_003663585   26.00%    failed      0.00%
+****  TOTAL            6.06%  73 sequences failed composition chi2 test (p-value<5%; df=19)
+
+===> COMPUTING SITE FREQUENCY MODEL BASED ON TREE FILE /Users/Julius/Bachelorthesis/Halobacteriota/zoomies/p__Halobacteriota_c6_min1_p__Thermoplasmatota_c1_min1_SR4/p__Halobacteriota_c_6_min1_p__Thermoplasmatota_c_1_min1.concatenation.treefile
+Reading model definition file /Users/Julius/Bachelorthesis/WhereDoGGo-main/nexus/Iqtree_C60sr4.nex ... 87 models and 274 frequency vectors loaded
+ERROR: File not found SR4C60
